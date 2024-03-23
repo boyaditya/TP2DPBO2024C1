@@ -27,7 +27,7 @@ Program ini dirancang untuk CRUD data mahasiswa dari database. Tabel berisi kolo
  
 ## Penjelasan Alur
 Menambahkan Data:
-1. Wajib isi nilai pada setiap field formulir (NIM, Nama, Jenis Kelamin, Program Studi, dan Status).
+1. Wajib isi nilai pada setiap field formulir (NIM, Nama, Jenis Kelamin, Program Studi, dan Status). Jika mengisi NIM yang sudah ada di database, maka muncul pesan "NIM sudah ada".
 2. Klik tombol "Add". Jika ada field yang masih kosong, maka akan muncul pesan "Mohon isi semua field".
 3. Pesan konfirmasi akan muncul, menunjukkan bahwa data berhasil ditambahkan.
 4. Form akan di-clear, semua field menjadi kosong.
